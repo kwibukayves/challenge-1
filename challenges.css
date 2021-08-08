@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.container{
+    width: 80%;
+    background-color: white;
+    display:flex;
+    align-items: center;
+}
+
+a{
+    margin-top: 2em;
+    color:black;
+    text-decoration:none;
+}
+
+.orange :hover{
+    color:hsl(31, 77%, 52%);
+    
+}
+
+.green :hover{
+    color:hsl(184, 100%, 22%) ;
+    
+}
+
+.dark-grey :hover{
+    color:hsl(184, 100%, 22%);
+    
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%); 
+    width: 30%;
+    height: 400px;
+    border-top-left-radius: 10px 15px;
+    border-bottom-left-radius: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.orange{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+    color: hsl(31, 77%, 52%);
+    font-size: 20px;
+    font-family: 'Big Shoulders Display';
+    padding: 15px 32px;
+    margin-top: 5em;
+    border: none;
+}
+
+#suv{
+    background-color: hsl(184, 100%, 22%) ;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+}
+
+.green{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+    color: hsl(184, 100%, 22%);
+    font-size: 20px;
+    font-family: 'Big Shoulders Display';
+    padding: 15px 32px;
+    margin-top: 5.5em;
+    border: none;
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%); 
+    width: 30%;
+    height: 400px;
+    border-top-right-radius: 10px 15px;
+    border-bottom-right-radius: 10px 15px;
+    text-align: center;
+}
+
+.dark-grey{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+    color: hsl(179, 100%, 13%);
+    font-size: 20px;
+    font-family: 'Big Shoulders Display';
+    padding: 15px 32px;
+    margin-top: 5.5em;
+    border: none;
+}
+
+p{
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1{
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+}
+
+
+
+
+@media screen and (max-width: 1440px) { .box{
+    width: 20px;
+
+}  
+}
+
+@media screen and (max-width: 602px) {.container{
+    width: 100%;
+    flex-direction: column;
+    height:max-content;
+    
+} .box{
+    width: 90% !important;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    margin-top:0.75em;
+    border-radius: 0px !important;
+
+}  
+}
+
+
+
+
+
+
+
+
